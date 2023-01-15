@@ -44,8 +44,6 @@ public class CarEasyTest {
 
     // MY TESTS
 
-
-
     @Test
     public void testNeedsFuel() {
         EasyMock.expect(myFerrari.needsFuel()).andReturn(false);
